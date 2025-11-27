@@ -1,0 +1,91 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.github.josebaperu:spring-boot-example >--------------
+[INFO] Building spring-boot-example 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.5.0:tree (default-cli) @ spring-boot-example ---
+[INFO] com.github.josebaperu:spring-boot-example:jar:1.0
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:3.1.4:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:3.1.4:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:3.1.4:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:3.1.4:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:3.1.4:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.4.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.4.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.20.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.20.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:2.0.9:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:6.0.12:compile
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:6.0.12:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.33:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:3.1.4:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.15.2:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.2:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.15.2:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.2:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.2:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.2:compile
+[INFO] |  +- org.springframework:spring-web:jar:6.0.12:compile
+[INFO] |  |  +- org.springframework:spring-beans:jar:6.0.12:compile
+[INFO] |  |  \- io.micrometer:micrometer-observation:jar:1.11.4:compile
+[INFO] |  |     \- io.micrometer:micrometer-commons:jar:1.11.4:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:6.0.12:compile
+[INFO] |     +- org.springframework:spring-aop:jar:6.0.12:compile
+[INFO] |     +- org.springframework:spring-context:jar:6.0.12:compile
+[INFO] |     \- org.springframework:spring-expression:jar:6.0.12:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-jetty:jar:3.1.4:compile
+[INFO] |  +- jakarta.servlet:jakarta.servlet-api:jar:5.0.0:compile
+[INFO] |  +- jakarta.websocket:jakarta.websocket-api:jar:2.1.1:compile
+[INFO] |  +- jakarta.websocket:jakarta.websocket-client-api:jar:2.1.1:compile
+[INFO] |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.13:compile
+[INFO] |  +- org.eclipse.jetty:jetty-servlets:jar:11.0.16:compile
+[INFO] |  |  +- org.eclipse.jetty:jetty-http:jar:11.0.16:compile
+[INFO] |  |  \- org.eclipse.jetty:jetty-io:jar:11.0.16:compile
+[INFO] |  +- org.eclipse.jetty:jetty-webapp:jar:11.0.16:compile
+[INFO] |  |  +- org.eclipse.jetty:jetty-servlet:jar:11.0.16:compile
+[INFO] |  |  |  \- org.eclipse.jetty:jetty-security:jar:11.0.16:compile
+[INFO] |  |  |     \- org.eclipse.jetty:jetty-server:jar:11.0.16:compile
+[INFO] |  |  \- org.eclipse.jetty:jetty-xml:jar:11.0.16:compile
+[INFO] |  +- org.eclipse.jetty.websocket:websocket-jakarta-server:jar:11.0.16:compile
+[INFO] |  |  +- org.eclipse.jetty.websocket:websocket-jakarta-client:jar:11.0.16:compile
+[INFO] |  |  |  +- org.eclipse.jetty.websocket:websocket-jakarta-common:jar:11.0.16:compile
+[INFO] |  |  |  +- org.eclipse.jetty.websocket:websocket-core-client:jar:11.0.16:compile
+[INFO] |  |  |  \- org.eclipse.jetty:jetty-client:jar:11.0.16:compile
+[INFO] |  |  |     \- org.eclipse.jetty:jetty-alpn-client:jar:11.0.16:compile
+[INFO] |  |  +- org.eclipse.jetty.websocket:websocket-servlet:jar:11.0.16:compile
+[INFO] |  |  |  \- org.eclipse.jetty.websocket:websocket-core-server:jar:11.0.16:compile
+[INFO] |  |  \- org.eclipse.jetty:jetty-annotations:jar:11.0.16:compile
+[INFO] |  |     +- org.eclipse.jetty:jetty-plus:jar:11.0.16:compile
+[INFO] |  |     |  +- jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile
+[INFO] |  |     |  \- org.eclipse.jetty:jetty-jndi:jar:11.0.16:compile
+[INFO] |  |     +- org.ow2.asm:asm:jar:9.5:compile
+[INFO] |  |     \- org.ow2.asm:asm-commons:jar:9.5:compile
+[INFO] |  |        \- org.ow2.asm:asm-tree:jar:9.5:compile
+[INFO] |  \- org.eclipse.jetty.websocket:websocket-jetty-server:jar:11.0.16:compile
+[INFO] |     +- org.eclipse.jetty.websocket:websocket-jetty-api:jar:11.0.16:compile
+[INFO] |     \- org.eclipse.jetty.websocket:websocket-jetty-common:jar:11.0.16:compile
+[INFO] |        \- org.eclipse.jetty.websocket:websocket-core-common:jar:11.0.16:compile
+[INFO] +- jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:2.0.0:compile
+[INFO] |  +- jakarta.el:jakarta.el-api:jar:4.0.0:compile
+[INFO] |  \- jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.1:compile
+[INFO] |     \- jakarta.activation:jakarta.activation-api:jar:2.1.2:compile
+[INFO] +- org.glassfish.web:jakarta.servlet.jsp.jstl:jar:2.0.0:compile
+[INFO] +- org.eclipse.jetty.ee10:jetty-ee10-apache-jsp:jar:12.0.0:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:2.0.9:compile
+[INFO] |  +- org.eclipse.jetty:jetty-util:jar:11.0.16:compile
+[INFO] |  \- org.mortbay.jasper:apache-jsp:jar:10.1.7:compile
+[INFO] |     +- org.mortbay.jasper:apache-el:jar:10.1.7:compile
+[INFO] |     +- jakarta.servlet.jsp:jakarta.servlet.jsp-api:jar:3.1.0:compile
+[INFO] |     \- org.eclipse.jdt:ecj:jar:3.33.0:compile
+[INFO] \- org.eclipse.jetty:apache-jstl:jar:10.0.26:compile
+[INFO]    +- org.apache.taglibs:taglibs-standard-impl:jar:1.2.5:compile
+[INFO]    \- org.apache.taglibs:taglibs-standard-spec:jar:1.2.5:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.292 s
+[INFO] Finished at: 2025-11-27T14:47:17-05:00
+[INFO] ------------------------------------------------------------------------
