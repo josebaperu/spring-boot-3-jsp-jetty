@@ -1,4 +1,4 @@
-package com.github.camelya58.cgf;
+package com.github.josebaperu.cgf;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

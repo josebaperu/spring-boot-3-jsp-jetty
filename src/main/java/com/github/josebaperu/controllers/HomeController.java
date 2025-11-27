@@ -1,11 +1,9 @@
-package com.github.camelya58.controllers;
+package com.github.josebaperu.controllers;
 
 
-import com.github.camelya58.models.Book;
+import com.github.josebaperu.models.Book;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
 

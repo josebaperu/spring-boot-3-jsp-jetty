@@ -1,4 +1,4 @@
-package com.github.camelya58.models;
+package com.github.josebaperu.models;
 
 import java.util.Objects;
 
