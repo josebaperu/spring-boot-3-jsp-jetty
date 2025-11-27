@@ -4,7 +4,7 @@
     <groupId>com.github.camelya58</groupId>
     <artifactId>spring-boot-example</artifactId>
     <version>1.0</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
